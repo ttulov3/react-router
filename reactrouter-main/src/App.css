@@ -1,0 +1,154 @@
+/* styles.css */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f0f0f0;
+    /* Adicione uma cor de fundo para a área principal */
+}
+
+.perfil {
+    text-align: center;
+}
+
+.perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Adicione uma sombra suave à imagem */
+}
+
+#user-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+    /* Defina uma cor para o nome do usuário */
+    font-family: 'Arial', sans-serif;
+    /* Escolha uma fonte agradável */
+}
+
+#rota_sm {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#rota_sm:hover {
+    background-color: #0056b3;
+    color: #fff;
+    /* Mantenha o texto branco ao passar o mouse */
+}
+
+/* sobre.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    /* Cor de fundo para a área de conteúdo */
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    /* Cor do texto */
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    /* Escolha uma fonte agradável */
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    /* Cor do link */
+    font-weight: bold;
+    transition: color 0.3s ease;
+    /* Transição suave da cor do link */
+}
+
+a:hover {
+    color: #0056b3;
+    /* Cor do link ao passar o mouse */
+}
+
+/* header.css */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #007bff;
+    /* Cor de fundo do header */
+    color: #fff;
+    /* Cor do texto do header */
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    /* Para garantir que o header esteja na parte superior */
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+}
+
+header div {
+    display: flex;
+    gap: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    /* Cor dos links do header */
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 18px;
+    /* Transição suave da cor do link */
+}
+
+header a:hover {
+    color: #0056b3;
+    /* Cor do link ao passar o mouse */
+}
